@@ -1,0 +1,99 @@
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+/* ====== HERO CSS STARTS HERE ===== */
+
+#hero{
+    background-image: url("img/header_background.jpg");
+    background-repeat: no-repeat;
+    max-width: 1180px;
+    margin:auto;
+    height: 624px;
+    color:white;
+    position: relative;
+}
+
+#textrows{
+    position: absolute;
+    bottom: 25px;
+    margin: 50px;
+    max-width: 700px;
+}
+
+
+.navtags{
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    top: 75px;
+}
+
+.navtags *{
+    margin:25px;
+}
+
+#icon {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+/* ===== CONTENT CSS STARTS HERE ====== */
+
+#main{
+    text-align: center;
+}
+
+#main > button{
+    background-color: #25aa99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 3em;
+    padding: 5px;
+    margin: 25px;
+    width: 940px;
+}
+
+#textrows2{
+    text-align: left;
+    margin: 25px 50px 25px 50px;
+}
+
+#textrows2 > p{
+    font-size: 14px;
+}
+
+.boxes{
+    text-align: left;
+    float: left;
+    margin: 20px;
+}
+
+.boxes > h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boxes > p{
+     font-weight: bold;
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+
+
+.row2{
+    color: #25aa99;
+}
+
+.row3{
+    color: lightgray;
+}
+
+
+#videos{
+    padding: 80px;
+}
