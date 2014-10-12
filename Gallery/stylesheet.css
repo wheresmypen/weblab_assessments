@@ -1,7 +1,70 @@
-img{
-margin: 15px 10px;
+.top{
+    width: 100%;
+}
+
+#goop{
+    text-align: center;
+    font-size: 24px;
+    color: orange;
 }
 
 .profile{
+    padding: 25px 45px;
+    width: 145px;
+    overflow: hidden;
+    float: left;
+    color: white;
+}
+
+.profile:hover {
+    background-color: darkgreen;
+}
+
+.show{
+    position: relative;
+}
+
+label {
+    position: absolute;
+    top: -100px;
+    width: 350px;
+    height: 75px;
+}
+
+a {
+    position: absolute;
+    top: -80px;
+}
+
+.txt{
+    position: absolute;
+    left: -225px;
+}
+
+.txt:hover{
+    position: absolute;
+    left: 10px;
+}
+
+img{
+    padding: 3px 6px;
+}
+
+.profile img{
     background-color: green;
+    transition: all .3s ease;
+}
+
+.profile img:hover{
+    background-color: grey;
+    box-shadow: 5px 5px 0 rgb(255,255,255);
+    transform: scale(1.25) rotate(5deg);
+}
+
+td{
+    outline: dashed 2px;
+}
+
+.bottom{
+    text-align: center;
 }
